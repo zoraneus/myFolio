@@ -6,19 +6,22 @@
     top: 0;
     right: -400px;
 
-  &.is-open {
+  &.on {
     right: 0px;
   }
 }
 
-.sidebarOverlay {
+.SidebarOverlay {
+  position: fixed;
+    top: 0;
+    left: 0;
   width: 0;
   height: 0;
   background-color: black;
   opacity: 0.5;
 
-  &.is-open {
-    width: 100vh;
-    height: 100vh;
+  &.on {
+    width: 100%;
+    height: 100%;
   }
 }
