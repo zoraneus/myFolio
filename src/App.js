@@ -1,9 +1,12 @@
 import React from 'react';
+import {Sidebar, SidebarToggle} from './Sidebar';
+import styles from './app.module.scss';
 
 function App() {
   return (
     <>
-      hello world
+      <SidebarToggle />
+      <Sidebar />
     </>
   );
 }
