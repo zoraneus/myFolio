@@ -1,0 +1,10 @@
+.Navbar {
+  min-height: 60px;
+  position: fixed;
+    top: 0;
+    left: 0;
+
+  &.white {
+    background-color: white;
+  }
+}

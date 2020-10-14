@@ -1,21 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-import {Sidebar, SidebarToggle} from './Components/Sidebar'
-import SidebarContext from './Contexts/sidebar.context';
+import {MainLayout} from './Layouts';
+import {HomePage} from './Pages';
 
-const App = () => {
-  const [sidebarState, updateSidebarState] = useState(false);
-
-  const toggle = () => {
-    updateSidebarState(!sidebarState);
-  }
-
-  return (
-    <SidebarContext.Provider value={{sidebarState, toggle}}>
-      <SidebarToggle />
-      <Sidebar />
-    </SidebarContext.Provider>
-  )
-};
+const App = () => (
+  <MainLayout render={<HomePage />}/>
+)
 
 export default App;

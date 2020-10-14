@@ -7,7 +7,7 @@ function Sidebar() {
     <SidebarContext.Consumer>
        {({sidebarState, toggle}) => (
         <>
-          <div onClick={toggle} className={`${styles.SidebarOverlay} ${sidebarState ? styles.on : ''}`}>
+          <div onClick={toggle} className={`${styles.SidebarOverlay} ${sidebarState && styles.on}`}>
           </div>
           <div className={`${styles.Sidebar} ${sidebarState ? styles.on : ''}`}>
             &nbsp;
