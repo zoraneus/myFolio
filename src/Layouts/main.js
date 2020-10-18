@@ -19,6 +19,23 @@ const MainLayout = ({render}) => {
       <Sidebar />
       <div className={styles.MainLayoutContent}>
         {render}
+        define([
+          'require',
+          'd
+          d
+          d
+          d
+          d
+          
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d'
+        ], function(require, factory)
       </div>
     </SidebarContext.Provider>
   )

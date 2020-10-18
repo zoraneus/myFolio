@@ -3,46 +3,9 @@ import {Baneer} from '../Components/BaneerSection';
 
 const HomePage = () => (
   <div>
-    <Baneer />
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
-    <p>Homepage</p>
+    <Baneer>
+      
+    </Baneer>
   </div>
 )
 

@@ -9,7 +9,9 @@ const Navbar = () => {
 
   return (
     <div className={`${styles.Navbar} ${position && styles.white}`}>
-      <SidebarToggle />
+      <div className={styles.content}>
+        <SidebarToggle color={position ? 'black' : 'white'} />
+      </div>
     </div>
     )
 }
