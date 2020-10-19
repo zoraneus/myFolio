@@ -4,6 +4,7 @@ import {Container, Row, Col} from 'reactstrap';
 
 const TechnoSection = (props) => (
   <div className={styles.technoSection}>
+    <h2>Technologies</h2>
     <Container>
       <Row>
         {props.children.map((child) => (

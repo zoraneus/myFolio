@@ -6,10 +6,11 @@
   padding: 20px;
   transition: box-shadow 0.5s;
   margin: 0;
+  cursor: default;
   &:hover {
-    -webkit-box-shadow: 0px 6px 81px -15px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 6px 81px -15px rgba(0,0,0,0.75);
-    box-shadow: 0px 6px 81px -15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 48px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 48px -18px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 48px -18px rgba(0,0,0,0.75);
   }
   img {
     width: 80px;
