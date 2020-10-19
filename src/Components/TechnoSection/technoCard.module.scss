@@ -1,0 +1,27 @@
+
+.technoCard {
+  border: 1px solid lightgray;
+  text-align: center;
+  padding: 20px;
+  transition: box-shadow 0.5s;
+  margin: 0;
+  &:hover {
+    -webkit-box-shadow: 0px 6px 81px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 81px -15px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 81px -15px rgba(0,0,0,0.75);
+  }
+  img {
+    width: 80px;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 15px;
+  }
+}
