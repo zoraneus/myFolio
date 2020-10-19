@@ -15,11 +15,11 @@ const MainLayout = ({render}) => {
 
   return (
     <SidebarContext.Provider value={{sidebarState, toggle}}>
-      <Navbar />
-      <Sidebar />
       <div className={styles.MainLayoutContent}>
         {render}
       </div>
+      <Navbar />
+      <Sidebar />
     </SidebarContext.Provider>
   )
 };

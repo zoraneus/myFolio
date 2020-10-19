@@ -1,6 +1,17 @@
 import React from 'react';
 import {Baneer} from '../Components/BaneerSection';
-import {TechnoCard, ReactIcon, TechnoSection} from '../Components/TechnoSection';
+import {
+  TechnoCard,
+  TechnoSection,
+  ReactIcon,
+  BootstrapIcon,
+  DockerIcon,
+  NodeIcon,
+  PhpIcon,
+  RailsIcon,
+  SailsIcon,
+  WordpressIcon
+} from '../Components/TechnoSection';
 
 const HomePage = () => (
   <div>
@@ -15,23 +26,38 @@ const HomePage = () => (
         <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
       </TechnoCard>
       <TechnoCard>
-        <img src={ReactIcon} />
-        <h3>React</h3>
+        <img src={BootstrapIcon} />
+        <h3>Bootstrap 4</h3>
         <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
       </TechnoCard>
       <TechnoCard>
-        <img src={ReactIcon} />
-        <h3>React</h3>
+        <img src={DockerIcon} />
+        <h3>Docker</h3>
         <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
       </TechnoCard>
       <TechnoCard>
-        <img src={ReactIcon} />
-        <h3>React</h3>
+        <img src={NodeIcon} />
+        <h3>Nodejs</h3>
         <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
       </TechnoCard>
       <TechnoCard>
-        <img src={ReactIcon} />
-        <h3>React</h3>
+        <img src={PhpIcon} />
+        <h3>PHP 7</h3>
+        <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
+      </TechnoCard>
+      <TechnoCard>
+        <img src={RailsIcon} />
+        <h3>Ruby on Rails</h3>
+        <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
+      </TechnoCard>
+      <TechnoCard>
+        <img src={SailsIcon} />
+        <h3>Sails.js</h3>
+        <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
+      </TechnoCard>
+      <TechnoCard>
+        <img src={WordpressIcon} />
+        <h3>Wordpress</h3>
         <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
       </TechnoCard>
     </TechnoSection>
