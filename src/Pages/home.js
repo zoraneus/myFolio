@@ -20,7 +20,7 @@ import {
   GpgLogo,
   TakerLogo
 } from '../Components/ClientSection';
-
+import {Timeline} from '../Components/TimelineSection';
 
 const HomePage = () => (
   <div>
@@ -77,6 +77,8 @@ const HomePage = () => (
       <img src={GoogleLogo} />
       <img src={GpgLogo} />
     </ClientSection>
+    <Timeline>
+    </Timeline>
   </div>
 )
 
