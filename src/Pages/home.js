@@ -12,6 +12,15 @@ import {
   SailsIcon,
   WordpressIcon
 } from '../Components/TechnoSection';
+import {
+  ClientSection,
+  ArgosoftLogo,
+  BoyerLogo,
+  GoogleLogo,
+  GpgLogo,
+  TakerLogo
+} from '../Components/ClientSection';
+
 
 const HomePage = () => (
   <div>
@@ -61,6 +70,13 @@ const HomePage = () => (
         <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
       </TechnoCard>
     </TechnoSection>
+    <ClientSection>
+      <img src={TakerLogo} />
+      <img src={ArgosoftLogo} />
+      <img src={BoyerLogo} />
+      <img src={GoogleLogo} />
+      <img src={GpgLogo} />
+    </ClientSection>
   </div>
 )
 
