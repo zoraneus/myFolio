@@ -3,7 +3,7 @@ import TechnoSection from './TechnoSection';
 
 import ReactIcon from './icons/react.png';
 import BootstrapIcon from './icons/bootstrap.png';
-import DockerIcon from './icons/docker.jpg';
+import DockerIcon from './icons/docker.png';
 import NodeIcon from './icons/node.png';
 import PhpIcon from './icons/php.png';
 import RailsIcon from './icons/rails.png';
