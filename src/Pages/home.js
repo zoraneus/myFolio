@@ -20,6 +20,7 @@ import {
   GpgLogo,
   TakerLogo
 } from '../Components/ClientSection';
+import {ContactForm} from '../Components/contactForm';
 import {Timeline} from '../Components/TimelineSection';
 
 const HomePage = () => (
@@ -79,6 +80,7 @@ const HomePage = () => (
     </ClientSection>
     <Timeline>
     </Timeline>
+    <ContactForm />
   </div>
 )
 
