@@ -1,0 +1,18 @@
+
+.ProjectSection {
+  width: 100%;
+  background-color: lighten(lightgrey, 15%);
+  padding: 20px 10%;
+  text-align: center;
+  margin: 25px 0;
+  h2 {
+    font-weight: 500;
+    margin: 10px;
+    color: #444444;
+    font-size: 40px;
+  }
+  .projectWrapper {
+    display: flex;
+    align-items: center;
+  }
+}

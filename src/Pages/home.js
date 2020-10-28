@@ -20,8 +20,13 @@ import {
   GpgLogo,
   TakerLogo
 } from '../Components/ClientSection';
-import {ContactForm} from '../Components/contactForm';
 import {Timeline} from '../Components/TimelineSection';
+import {
+  ProjectSection,
+  ProjectCard,
+  GpgExtranet
+} from '../Components/ProjectSection';
+import {ContactForm} from '../Components/ContactForm';
 
 const HomePage = () => (
   <div>
@@ -80,6 +85,11 @@ const HomePage = () => (
     </ClientSection>
     <Timeline>
     </Timeline>
+    <ProjectSection>
+      <ProjectCard to='/fer' img={GpgExtranet} title='Extranet Gpg' technology='React / Node'>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+      </ProjectCard>
+    </ProjectSection>
     <ContactForm />
   </div>
 )

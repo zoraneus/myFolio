@@ -1,0 +1,35 @@
+.ProjectCard {
+  width: 400px;
+  height: 300px;
+  position: relative;
+
+  img {
+    width: 400px;
+    height: 300px;
+  }
+  .overlay {
+    position: absolute;
+      top: 0;
+      left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    h3 {
+      margin-top: 15px;
+      margin-bottom: 0;
+    }
+    .technology {
+      color: #E86971;
+      font-weight: 400;
+      font-style: italic;
+    }
+  }
+  &:hover {
+    .overlay{
+      opacity: 0.9;
+    }
+  }
+}
