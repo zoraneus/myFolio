@@ -27,6 +27,7 @@ import {
   GpgExtranet
 } from '../Components/ProjectSection';
 import {ContactForm} from '../Components/ContactForm';
+import {Element} from 'react-scroll'
 
 const HomePage = () => (
   <div>
@@ -34,6 +35,7 @@ const HomePage = () => (
       <h1>Guilian Ganster</h1>
       <p>Etudiant Epitech 3e année (Master MSC 5 ans) et développeur freelance fullstack depuis 1 ans. Je cherche un contrat professionnel 3j/semaine de janvier jusqu’à août 2021 à Rennes,  (renouvelable sur 2 ans).</p>
     </Baneer>
+    <Element name="technology" />
     <TechnoSection>
       <TechnoCard>
         <img src={ReactIcon} />
@@ -76,6 +78,7 @@ const HomePage = () => (
         <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
       </TechnoCard>
     </TechnoSection>
+    <Element name='clients' />
     <ClientSection>
       <img src={TakerLogo} />
       <img src={ArgosoftLogo} />
@@ -83,13 +86,16 @@ const HomePage = () => (
       <img src={GoogleLogo} />
       <img src={GpgLogo} />
     </ClientSection>
+    <Element name="timeline" />
     <Timeline>
     </Timeline>
+    <Element name="projects" />
     <ProjectSection>
       <ProjectCard to='/fer' img={GpgExtranet} title='Extranet Gpg' technology='React / Node'>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
       </ProjectCard>
     </ProjectSection>
+    <Element name="contact" />
     <ContactForm />
   </div>
 )
