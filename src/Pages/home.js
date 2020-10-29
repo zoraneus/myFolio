@@ -33,14 +33,20 @@ const HomePage = () => (
   <div>
     <Baneer>
       <h1>Guilian Ganster</h1>
-      <p>Etudiant Epitech 3e année (Master MSC 5 ans) et développeur freelance fullstack depuis 1 ans. Je cherche un contrat professionnel 3j/semaine de janvier jusqu’à août 2021 à Rennes,  (renouvelable sur 2 ans).</p>
+      <p>Développeur full stack
+      freelance avec 1 ans
+      d’expérience. Passionné
+      d’informatique depuis mes 10
+      ans. Polyvalent et autonome,
+      je m’adapte très vite aux
+      technologies demandés.</p>
     </Baneer>
     <Element name="technology" />
     <TechnoSection>
       <TechnoCard>
         <img src={ReactIcon} />
         <h3>React</h3>
-        <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
+        <p>Développement d'application web. De concert avec le système de store MobX</p>
       </TechnoCard>
       <TechnoCard>
         <img src={BootstrapIcon} />
