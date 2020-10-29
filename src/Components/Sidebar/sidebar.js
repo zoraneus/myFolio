@@ -11,11 +11,11 @@ function Sidebar() {
           <div onClick={toggle} className={`${styles.SidebarOverlay} ${sidebarState && styles.on}`}>
           </div>
           <div className={`${styles.Sidebar} ${sidebarState ? styles.on : ''}`}>
-            <Link onClick={() => toggle()} smooth={true} offset={-100} to='technology'>Technologies</Link>
-            <Link onClick={() => toggle()} smooth={true} offset={-100} to='clients'>Clients</Link>
-            <Link onClick={() => toggle()} smooth={true} offset={-100} to='timeline'>Timeline</Link>
-            <Link onClick={() => toggle()} smooth={true} offset={-100} to='portfolio'>Portfolio</Link>
-            <Link onClick={() => toggle()} smooth={true} offset={-100} to='contact'>Contact</Link>
+            <Link onClick={() => toggle()} smooth={true} offset={-70} to='technology'>Technologies</Link>
+            <Link onClick={() => toggle()} smooth={true} offset={-70} to='clients'>Clients</Link>
+            <Link onClick={() => toggle()} smooth={true} offset={-70} to='timeline'>Timeline</Link>
+            <Link onClick={() => toggle()} smooth={true} offset={-70} to='portfolio'>Portfolio</Link>
+            <Link onClick={() => toggle()} smooth={true} offset={-70} to='contact'>Contact</Link>
           </div>
         </>
        )}

@@ -18,13 +18,17 @@ import {
   BoyerLogo,
   GoogleLogo,
   GpgLogo,
-  TakerLogo
+  TakerLogo,
+  AtlanticLogo
 } from '../Components/ClientSection';
 import {Timeline} from '../Components/TimelineSection';
 import {
-  ProjectSection,
-  ProjectCard,
-  GpgExtranet
+  ProjectCard, 
+  ProjectSection, 
+  GpgExtranet,
+  Milleparty,
+  Projipac,
+  GpgCrm
 } from '../Components/ProjectSection';
 import {ContactForm} from '../Components/ContactForm';
 import {Element} from 'react-scroll'
@@ -46,42 +50,37 @@ const HomePage = () => (
       <TechnoCard>
         <img src={ReactIcon} />
         <h3>React</h3>
-        <p>Développement d'application web. De concert avec le système de store MobX</p>
+        <p>Développement d'applications web. Utilisation de Mobx, maitrise des appels API (fetch/axios)</p>
       </TechnoCard>
       <TechnoCard>
         <img src={BootstrapIcon} />
         <h3>Bootstrap 4</h3>
-        <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
+        <p>Librairie CSS Permettant le développement plus rapide d'interface web.</p>
       </TechnoCard>
       <TechnoCard>
         <img src={DockerIcon} />
         <h3>Docker</h3>
-        <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
+        <p>Maitrise de docker et de son intégration dans un pipeline d'intégration continue</p>
       </TechnoCard>
       <TechnoCard>
         <img src={NodeIcon} />
         <h3>Nodejs</h3>
-        <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
+        <p>Développement de serveur web (coté backend) avec le framework sails (sur le modèle API Rest)</p>
       </TechnoCard>
       <TechnoCard>
         <img src={PhpIcon} />
         <h3>PHP 7</h3>
-        <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
+        <p>Développement de plugins et de thèmes pour Wordpress.</p>
       </TechnoCard>
       <TechnoCard>
         <img src={RailsIcon} />
         <h3>Ruby on Rails</h3>
-        <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
-      </TechnoCard>
-      <TechnoCard>
-        <img src={SailsIcon} />
-        <h3>Sails.js</h3>
-        <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
+        <p>Création d'un CRM et d'un extranet avec ruby on rails. Utilisation de Sidekick, elasticsearch. Rédaction de tests unitaires</p>
       </TechnoCard>
       <TechnoCard>
         <img src={WordpressIcon} />
         <h3>Wordpress</h3>
-        <p>Les PWA permettent à vos sites web de proposer des fonctionnalités offline tout en garantissant une performance irréprochable.</p>
+        <p>Céation de site web vitrine, de plugin wordpress et de thèmes Custom. Connaissances dans ACF et dans la WP_Rest API</p>
       </TechnoCard>
     </TechnoSection>
     <Element name='clients' />
@@ -91,14 +90,27 @@ const HomePage = () => (
       <img src={BoyerLogo} />
       <img src={GoogleLogo} />
       <img src={GpgLogo} />
+      <img src={AtlanticLogo} />
     </ClientSection>
     <Element name="timeline" />
     <Timeline>
     </Timeline>
-    <Element name="projects" />
+    <Element name="portfolio" />
     <ProjectSection>
-      <ProjectCard to='/fer' img={GpgExtranet} title='Extranet Gpg' technology='React / Node'>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+      <ProjectCard to='/fer' img={GpgExtranet} title='Extranet Gpg' technology='Ruby on Rails'>
+        Développement d'un extranet. Maintenance des applications existantes.
+        Statistique utilisateur avec PowerBI. Communication avec le CMS Contao. Permet à des agences de pompe funèbre de s'approvisonner en monuments
+        directement sur le site.
+      </ProjectCard>
+      <ProjectCard to='/fer' img={Milleparty} title='Milleparty.com' technology='Wordpress / React / PHP'>
+        Développement d'un back office pour Milleparty.com. Site de mise en relation prestataire/client pour l'animation d'anniversaire pour enfants.
+      </ProjectCard>
+      <ProjectCard to='/fer' img={GpgCrm} title='Crm Gpg' technology='Ruby on Rails'>
+        Développement d'un CRM pour GPG Granit (basé à Rennes). Permet à l'équipe commerciale de mieux organiser sa prospection.
+      </ProjectCard>
+      <ProjectCard to='/fer' img={Projipac} title='Projipac 4 Atlantic' technology='React / Node / Sails.js'>
+        Création d'une application web de contrôle à distance de chaudière et de calcul de dimensionnement de pompe à chaleure pour Atlantic Group
+        En partenariat avec Argosoft
       </ProjectCard>
     </ProjectSection>
     <Element name="contact" />
