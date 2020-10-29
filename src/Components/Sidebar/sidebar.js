@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './sidebar.module.scss';
 import SidebarContext from '../../Contexts/sidebar.context';
+import {Link} from 'react-scroll';
 
 function Sidebar() {
   return (
@@ -10,7 +11,11 @@ function Sidebar() {
           <div onClick={toggle} className={`${styles.SidebarOverlay} ${sidebarState && styles.on}`}>
           </div>
           <div className={`${styles.Sidebar} ${sidebarState ? styles.on : ''}`}>
-            &nbsp;
+            <Link onClick={() => toggle()} smooth={true} offset={-100} to='technology'>Technologies</Link>
+            <Link onClick={() => toggle()} smooth={true} offset={-100} to='clients'>Clients</Link>
+            <Link onClick={() => toggle()} smooth={true} offset={-100} to='timeline'>Timeline</Link>
+            <Link onClick={() => toggle()} smooth={true} offset={-100} to='portfolio'>Portfolio</Link>
+            <Link onClick={() => toggle()} smooth={true} offset={-100} to='contact'>Contact</Link>
           </div>
         </>
        )}

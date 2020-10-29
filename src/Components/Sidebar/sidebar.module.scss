@@ -8,6 +8,18 @@
     right: -400px;
   transition: all 0.5s;
   box-shadow: 12px 6px 6px 12px black;
+  padding: 40px;
+  padding-top: 70px;
+  a {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 15px 0;
+    &:hover {
+      color: #e86971!important;
+    }
+  }
   &.on {
     right: 0px;
   }
