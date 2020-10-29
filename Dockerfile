@@ -9,7 +9,6 @@ RUN npm install -g serve
 COPY . /usr/src/app/
 
 RUN npm run build
-ADD build build
 
 EXPOSE 3000
 CMD [ "serve", "-l", "3000", "build/"]
