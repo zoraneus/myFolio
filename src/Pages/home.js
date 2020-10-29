@@ -30,7 +30,7 @@ import {
   Projipac,
   GpgCrm
 } from '../Components/ProjectSection';
-import {ContactForm} from '../Components/ContactForm';
+import {ContactForm} from '../Components/contactForm';
 import {Element} from 'react-scroll'
 
 const HomePage = () => (
