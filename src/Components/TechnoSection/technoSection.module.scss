@@ -1,0 +1,17 @@
+.technoSection {
+  width: 90%;
+  margin: 20px auto;
+
+  h2 {
+    text-align: center;
+    font-weight: 500;
+    margin: 20px;
+    font-size: 40px;
+    color: #444444
+  }
+
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
