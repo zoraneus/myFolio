@@ -23,7 +23,7 @@ const Timeline = () => (
       </TimelineItem>
       <TimelineItem
         key="002"
-        dateText="09/2016 – 06/2018"
+        dateText="mars 2020 -> aujourd'hui"
         style={{ color: '#61b8ff' }}
         dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
         <h3>Taker Junior Conseil</h3>
@@ -35,7 +35,7 @@ const Timeline = () => (
       </TimelineItem>
       <TimelineItem
         key="003"
-        dateText="09/2016 – 06/2018"
+        dateText="janvier 2020 -> aujourd'hui"
         style={{ color: '#61b8ff' }}
         dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
         <h3>Wisoftify</h3>
@@ -46,7 +46,7 @@ const Timeline = () => (
       </TimelineItem>
       <TimelineItem
         key="004"
-        dateText="09/2016 – 06/2018"
+        dateText="2018 -> 2020 (2 ans)"
         style={{ color: '#61b8ff' }}
         dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
         <h3>E-mma Rennes</h3>
@@ -58,7 +58,7 @@ const Timeline = () => (
       </TimelineItem>
       <TimelineItem
         key="005"
-        dateText="09/2016 – 06/2018"
+        dateText="2018 -> 2020 (2 ans)"
         style={{ color: '#61b8ff' }}
         dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
         <h3>Epitech PGE</h3>
@@ -73,7 +73,7 @@ const Timeline = () => (
       </TimelineItem>
       <TimelineItem
         key="006"
-        dateText="09/2016 – 06/2018"
+        dateText="2015 -> 2018"
         style={{ color: '#61b8ff' }}
         dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
         <h3>Lycée Colbert (Lorient)</h3>
