@@ -25,6 +25,12 @@
   }
 }
 
+@media (max-width: 420px) {
+  .Sidebar {
+    width: 90%;
+  }
+}
+
 .SidebarOverlay {
   position: fixed;
     top: 0;
