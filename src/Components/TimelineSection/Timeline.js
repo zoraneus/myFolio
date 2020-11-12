@@ -7,55 +7,80 @@ const Timeline = () => (
     
     <h2>Timeline</h2>
     <MTimeline lineColor={'#ddd'}>
-    <TimelineItem
+      <TimelineItem
         key="001"
-        dateText="10/2018 – Aujourd'hui"
-        style={{ color: '#e86971' }}
+        dateText="2020 -> aujourd'hui"
+        style={{color: '#61b8ff'}}
+        dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
       >
-        <h3>Epitech Rennes (2e année)</h3>
-        <h5>Expert en technologie de l'information. (bac +5)</h5>
+        <h3>Epitech MSC</h3>
+        <h5>étudiant à Rennes</h5>
         <p>
-          <strong>Programmation en language C et C++</strong>, utilisant des outils et méthodes professionnelles
-          (git, trello, UML, ...). Procurant une forte adaptabilité à tous les languages et l'intégration rapide en entreprise.
-        </p>
-        <p>
-          <strong>Stage de 6 mois</strong> en entreprise chez Argosoft. Programmation en react.js / PHP
-          d'un dashboard/backoffice from scratch utilisant l'API wordpress et l'architecture REST. 
-          Ainsi que des scripts d'automatisation en node.js et la mise en place de CI/CD (voir Projets)
-        </p>
-        <p>
-          <strong>Référent au Fab Lab</strong> d'Epitech Rennes dans le domaine de l'électronique, impression 3d
-          et nouvelles technologies. 
-        </p>
-        <p>
-          <strong>Membre bureau et référent IT</strong> chez E-mma. Une fondation ayant pour but de promouvoir la
-          mixité dans le domaine du numérique et participe également à des initiations à la programmation
-          en partenariat avec les ateliers numériques Google de Rennes.
-        </p>
-        <p>
-          <strong>Membre des Cobra</strong>: une branche d'Epitech intervenant pour initier les collégiens et lycéens
-          à la programmation. nottamment en language C
+          Formation d'expert en technologie de l'information (bac +5)<br/>
+          - plateforme web de recherche de travail "Jobboard" (React/Express.js)<br/>
+          - plateforme mobile de monitoring de cryptomonnaie (React Native/express.js)
         </p>
       </TimelineItem>
-    <TimelineItem
+      <TimelineItem
         key="002"
         dateText="09/2016 – 06/2018"
         style={{ color: '#61b8ff' }}
         dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
-        <h3>Lycée Colbert (Lorient)</h3>
-        <h5>Bac STI2D SIN, Mention Bien</h5>
+        <h3>Taker Junior Conseil</h3>
+        <h5>Responsable régional & chef de projet</h5>
         <p>
-          <strong>Projet de fin d'année</strong>: Création d'une porte contrôlé par RFID
-          pour les personnes en situation de handicap. Utilisation d'arduino (language C++)
-          et création d'un protocole de communication sans fil ainsi qu'une étude de sécurité
-          réseau. (Voir projets)
+          Gestion du pole Rennais de Taker (~10 membres) sur le modèle ESN<br/>
+          développement web backend (PHP / Wordpress)
         </p>
+      </TimelineItem>
+      <TimelineItem
+        key="003"
+        dateText="09/2016 – 06/2018"
+        style={{ color: '#61b8ff' }}
+        dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
+        <h3>Wisoftify</h3>
+        <h5>CEO</h5>
         <p>
-          <strong>Cofondateur du club informatique</strong>: initiation au language C++ avec la librairie Qt,
-          administrateur réseau (mise en place d'un serveur, sécurisation des comptes, ...).
-          Pentesting avec kali linux de ce réseau (wireshark, metasploit, ...).
-          <br></br>
-          Création d'un site web de gestion de bibliothèque pour le club manga (HTML/PHP/SQL)
+          Développement freelance fullstack en React/Sails.js et Ruby On Rails
+        </p>
+      </TimelineItem>
+      <TimelineItem
+        key="004"
+        dateText="09/2016 – 06/2018"
+        style={{ color: '#61b8ff' }}
+        dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
+        <h3>E-mma Rennes</h3>
+        <h5>Responsable de la branche IT régionale</h5>
+        <p>
+          Gestion des équipes assurants les ateliers d'initiation à la programmation informatique (~60 membres)<br/>
+          Conférences et ateliers en partenariat avec Google atelier numérique. (scratch/python/wordpress)
+        </p>
+      </TimelineItem>
+      <TimelineItem
+        key="005"
+        dateText="09/2016 – 06/2018"
+        style={{ color: '#61b8ff' }}
+        dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
+        <h3>Epitech PGE</h3>
+        <h5>étudiant</h5>
+        <p>
+          apprentissage du C/C++ avec la pédagogie par projet:<br/>
+          - 42sh (shell en C basé sur tcsh)<br/>
+          - MyTeams (client/serveur de messagerie)<br/>
+          - Indie Studio (bomber man en 3D, C++) <br/>
+          stage 6 mois en développement web (React/wordpress) chez Argosoft
+        </p>
+      </TimelineItem>
+      <TimelineItem
+        key="006"
+        dateText="09/2016 – 06/2018"
+        style={{ color: '#61b8ff' }}
+        dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
+        <h3>Lycée Colbert (Lorient)</h3>
+        <h5>étudiant STI2D SIN</h5>
+        <p>
+          - Projet de fin d'année en C (projet d'électronique arduino)<br/>
+          - Co-fondateur du club informatique (création de TP C++/Qt et de cours d'initiation à la programmation pour débutants)
         </p>
       </TimelineItem>
     </MTimeline>
