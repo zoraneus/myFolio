@@ -9,13 +9,13 @@ const ProjectCard = ({to, img, title, technology, children}) => {
   const [modalState, setModalState] = useState(false);
 
   useEffect(() => {
-    if (windowWidth > 600)
+    if (windowWidth > 500)
       setModalState(false);
   })
 
   return (
     <>
-    <div className={styles.ProjectCard} onClick={() => {if (windowWidth <= 600) setModalState(!modalState)}}>
+    <div className={styles.ProjectCard} onClick={() => {if (windowWidth <= 500) setModalState(!modalState)}}>
       <img src={img} />
       <div className={styles.overlay}>
         <h3>{title}</h3>
