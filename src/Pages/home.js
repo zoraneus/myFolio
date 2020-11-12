@@ -50,22 +50,22 @@ const HomePage = () => (
       <TechnoCard>
         <img src={ReactIcon} />
         <h3>React</h3>
-        <p>Développement d'applications web. Utilisation de Mobx, maitrise des appels API (fetch/axios)</p>
+        <p>Développement d'applications web. Utilisation de Mobx, maitrise des appels API (fetch/axios). React Class & Hooks. Maîtrise de l'APi Context</p>
       </TechnoCard>
       <TechnoCard>
         <img src={BootstrapIcon} />
         <h3>Bootstrap 4</h3>
-        <p>Librairie CSS Permettant le développement plus rapide d'interface web.</p>
+        <p>Utilisation en standalone ou avec React (reactstrap), maîtrise des composants bootstrap avec JQuery</p>
       </TechnoCard>
       <TechnoCard>
         <img src={DockerIcon} />
         <h3>Docker</h3>
-        <p>Maitrise de docker et de son intégration dans un pipeline d'intégration continue</p>
+        <p>Maitrise de docker et de son intégration dans un pipeline d'intégration continue. Création des Dockerfile & docker-compose</p>
       </TechnoCard>
       <TechnoCard>
         <img src={NodeIcon} />
         <h3>Nodejs</h3>
-        <p>Développement de serveur web (coté backend) avec le framework sails (sur le modèle API Rest)</p>
+        <p>Développement de serveur web (coté backend) avec le framework sails (sur le modèle API Rest) en architecture MVC</p>
       </TechnoCard>
       <TechnoCard>
         <img src={PhpIcon} />
