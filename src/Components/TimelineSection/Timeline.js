@@ -10,8 +10,8 @@ const Timeline = () => (
       <TimelineItem
         key="001"
         dateText="2020 -> aujourd'hui"
-        style={{color: '#61b8ff'}}
-        dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+        style={{color: '#003d2e'}}
+        dateInnerStyle={{ background: '#003d2e', color: '#fff' }}
       >
         <h3>Epitech MSC</h3>
         <h5>étudiant à Rennes</h5>
@@ -24,8 +24,8 @@ const Timeline = () => (
       <TimelineItem
         key="002"
         dateText="mars 2020 -> aujourd'hui"
-        style={{ color: '#61b8ff' }}
-        dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
+        style={{ color: '#003844' }}
+        dateInnerStyle={{ background: '#003844', color: '#fff' }}>
         <h3>Taker Junior Conseil</h3>
         <h5>Responsable régional & chef de projet</h5>
         <p>
@@ -36,8 +36,8 @@ const Timeline = () => (
       <TimelineItem
         key="003"
         dateText="janvier 2020 -> aujourd'hui"
-        style={{ color: '#61b8ff' }}
-        dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
+        style={{ color: '#689689' }}
+        dateInnerStyle={{ background: '#689689', color: '#fff' }}>
         <h3>Wisoftify</h3>
         <h5>CEO</h5>
         <p>
@@ -47,8 +47,8 @@ const Timeline = () => (
       <TimelineItem
         key="004"
         dateText="2018 -> 2020 (2 ans)"
-        style={{ color: '#61b8ff' }}
-        dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
+        style={{ color: '#83E8BA' }}
+        dateInnerStyle={{ background: '#83E8BA', color: '#000' }}>
         <h3>E-mma Rennes</h3>
         <h5>Responsable de la branche IT régionale</h5>
         <p>
@@ -59,8 +59,8 @@ const Timeline = () => (
       <TimelineItem
         key="005"
         dateText="2018 -> 2020 (2 ans)"
-        style={{ color: '#61b8ff' }}
-        dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
+        style={{ color: '#B2E6D4' }}
+        dateInnerStyle={{ background: '#B2E6D4', color: '#000' }}>
         <h3>Epitech PGE</h3>
         <h5>étudiant</h5>
         <p>
@@ -74,8 +74,8 @@ const Timeline = () => (
       <TimelineItem
         key="006"
         dateText="2015 -> 2018"
-        style={{ color: '#61b8ff' }}
-        dateInnerStyle={{ background: '#61b8ff', color: '#000' }}>
+        style={{ color: '#E6F9AF' }}
+        dateInnerStyle={{ background: '#E6F9AF', color: '#000' }}>
         <h3>Lycée Colbert (Lorient)</h3>
         <h5>étudiant STI2D SIN</h5>
         <p>
