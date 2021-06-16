@@ -17,5 +17,28 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- firebase analytics -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+
+      <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyBLq4jJSyJ_ToN3w6Ivs43fgtA9yuto4js",
+          authDomain: "myfolio-316fc.firebaseapp.com",
+          projectId: "myfolio-316fc",
+          storageBucket: "myfolio-316fc.appspot.com",
+          messagingSenderId: "958596383291",
+          appId: "1:958596383291:web:65844c689285f91e50121e",
+          measurementId: "G-CR595729LR"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+    <!-- end -->
   </body>
 </html>
